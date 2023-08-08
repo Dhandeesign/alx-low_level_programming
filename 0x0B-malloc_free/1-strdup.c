@@ -8,7 +8,7 @@
  */
 char *_strdup(char *str)
 {
-	char *kkk;
+	char *aaa;
 	int q, w = 0;
 
 	if (str == NULL)
@@ -19,11 +19,11 @@ char *_strdup(char *str)
 
 	aaa = malloc(sizeof(char) * (q + 1));
 
-	if (kkk == NULL)
+	if (aaa == NULL)
 		return (NULL);
 
 	for (w = 0; str[w]; w++)
-		kkk[w] = str[w];
+		aaa[w] = str[w];
 
-	return (kkk);
+	return (aaa);
 }
